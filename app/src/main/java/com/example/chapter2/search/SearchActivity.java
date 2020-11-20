@@ -32,7 +32,7 @@ public class SearchActivity extends AppCompatActivity {
 
         final List<String> items = new ArrayList<>();
         for (int i = 0; i < 100; i++) {
-            items.add("这是第 " + i + " 行");
+            items.add("This is the " + i + "-th data");
         }
         mSearchAdapter.notifyItems(items);
 
